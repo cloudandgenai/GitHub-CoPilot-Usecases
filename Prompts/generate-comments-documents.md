@@ -1,6 +1,6 @@
 # 🚀 "GitHub Copilot in Action: Code, Refactor & Automate Like a Pro!
 
-[Start with the overview](../Overview.md) - Please make sure to read the README file first to understand the prerequisites and important notes before executing the prompts below.
+[Start with the overview](../Overview.md) - Please make sure to read the Overview.md file first to understand the prerequisites and important notes before executing the prompts below.
 
 ### Documentation Generation:
 - `create a python method read product details such name, description, qty from JSON file and sort by product name` -> Right click -> generate inline-comments

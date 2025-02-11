@@ -1,42 +1,16 @@
 # 🚀 "GitHub Copilot in Action: Code, Refactor & Automate Like a Pro!
 
-[Start with the overview](../Overview.md) - Please make sure to read the README file first to understand the prerequisites and important notes before executing the prompts below.
-
-### Code Generation:
-- `Create a Java class named Customer to validate name, date of birth (dob), and address.`
-
-- `Create a C# method to sort a list of country names.`
-
-- `Create a login page which accepts user name and password (let say user name is admin and password is admin@123) with UI validation in react.js`
-
-- `Create controller class to get the credentials from login page in node.js`
-
-### Code Refactoring:
-- `Refactor the Customer class to follow the Dependency Injection (DI) principle, naming the interface as ICustomer.`
-
-- `Generate a React.js component for a student profile page with fields for name, dob, and mobile number.`
-
-- `Refactor the student profile component to include a date picker control for the dob field.`
-
-- `Refactor the student profile component to use date picker styles from the Material-UI library.`
-
-- `Refactor the student profile component to support responsive web design.`
-
-### UT Scripts Generation:
-- `Create an asp.net security controller to validate the User login credentials and throw error when values are null in C#` -> Right click -> generate unit tests
-
-- `Create a python method addressvalidation to validate user address.`
-- `Generate unit test scripts for the #addressvalidation` 
-- `How to run this tests` -> #take copilot help to run and see outcome
+[Start with the overview](../Overview.md) - Please make sure to read the Overview.md file first to understand the prerequisites and important notes before executing the prompts below.
 
 ### Advanced Prompts:
 ####  Infrastructure as Code (IaC)
 - `Generate a Terraform script to create an AWS ECS Fargate instance and deploy the latest jar file from a Nexus repository into it.`
-- `Modify the Terraform script to include an EKS deployment instead of ECS Fargate.`
-- `Translate the Terraform script to an Ansible playbook.`
+  - `Modify the Terraform script to include an EKS deployment instead of ECS Fargate.`
+  - `Translate the Terraform script to an Ansible playbook.`
 
 #### SQL/ETL Automation
 - `Create a Snowpipe-based ETL to transfer Parquet files from S3 into a Snowflake instance.`
+
 - `Generate a SQL query to perform a left outer join between profiles and assessment tables.`
   - `Add a condition to the user_name field to match names ending with 'n' or 'i' and starting with 'd' or 'w' in the WHERE clause.`
   - `Refactor the user_name condition using regex.`
